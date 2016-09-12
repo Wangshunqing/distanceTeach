@@ -1,0 +1,4 @@
+开发环境：MyEclipse + Tomcat + MySql
+开发系统：Windows 10
+jar包：工作目录下的mysql-connector-java-5.1.25-bin.jar
+	Tomcat的lib目录下的jsp-api.jar 和 sevlet-api.jar

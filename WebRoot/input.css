@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+input {
+ border:1px solid black;
+-webkit-border-radius:5px;  
+-khtml-border-radius:5px; 
+border-radius:5px; 
+ }

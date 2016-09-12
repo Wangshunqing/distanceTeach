@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>downfile</servlet-name>
+			
+		<servlet-class>user.file.DownLoadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>downfile</servlet-name>
+		<url-pattern>/downfile</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>readMessage</servlet-name>
+			
+		<servlet-class>cn.hhu.Control</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>readMessage</servlet-name>
+		<url-pattern>/lookMessage</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>uploads</servlet-name>
+		<servlet-class>cn.hhu.handleUp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uploads</servlet-name>
+		<url-pattern>/upMessage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+<servlet-name>register</servlet-name>
+<servlet-class>Mybean.HandleRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>register</servlet-name>
+<url-pattern>/helpRegister</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>login</servlet-name>
+<servlet-class>Mybean.HandleLogin</servlet-class> 
+</servlet>
+<servlet-mapping>
+<servlet-name>login</servlet-name>
+<url-pattern>/helpLogin</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>exit</servlet-name>
+<servlet-class>Mybean.HandleExit</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>exit</servlet-name>
+<url-pattern>/helpExitLogin</url-pattern>
+</servlet-mapping>
+</web-app>

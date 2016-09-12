@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+body{
+	background-image:url(2.jpg);
+	background-repeat:not-repeat;
+}
+  .menu {
+  margin:0.5% 0.5% 0% 35px;
+    height: auto;
+    width: 160px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 2px
+    psiotion:absolute;
+ }
+
+ .menu .menu_liste li a {
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    text-decoration:none;
+    color: #000;
+ }
+
+ .menu ul, li {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'segoe ui', 'Tahoma', 'Verdana', 'lucida grande', sans-serif;
+    font-size: 25px;
+ }
+
+.menu li{
+    border: 1px solid #ddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin: 2px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#E1E1E1),to(#D9D9D9));
+    background-image: -webkit-linear-gradient(top, #E1E1E1, #D9D9D9);
+    background-image: -moz-linear-gradient(top, #E1E1E1, #D9D9D9);
+    background-image: -ms-linear-gradient(top, #E1E1E1, #D9D9D9);
+    background-image: -o-linear-gradient(top, #E1E1E1, #D9D9D9);
+    background-image: linear-gradient(top, #E1E1E1, #D9D9D9);
+    border: 1px solid #B8B8B8;
+    font-weight: bold;
+ }
+
+.menu li:hover{
+    background-image: -webkit-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -moz-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -ms-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -o-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: linear-gradient(top,#FDB813,#F68B1F);
+    border: 1px solid #F17022;
+ }
+ .menu li:visited{
+     background-image: -webkit-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -moz-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -ms-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: -o-linear-gradient(top,#FDB813,#F68B1F);
+    background-image: linear-gradient(top,#FDB813,#F68B1F);
+    border: 1px solid #000000;
+ 
+ 
+ }
+ h4{
+ margin:5px auto;
+ text-shadow:5px 5px 5px #e8eee7;
+ }
